@@ -1,0 +1,19 @@
+{
+    "name": "node-s3log",
+    "version": "0.0.1",
+    "description": "Log function writing to S3",
+    "main": "lib/main.js",
+    "scripts": {
+	"test": "mocha test/*"
+    },
+    "repository": "",
+    "author": "Sven Krasser",
+    "license": "GPLv2",
+    "dependencies": {
+	"aws-sdk": ""
+    },
+    "devDependencies": {
+	"mocha": "",
+	"should": ""
+    }
+}
