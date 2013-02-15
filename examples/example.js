@@ -8,7 +8,7 @@ var util = require('util');
 
 var keyid = process.env.AWS_ACCESS_KEY_ID;
 var secret = process.env.AWS_SECRET_ACCESS_KEY;
-var bucket = 'cs-toolapi-logs';
+var bucket = 'example-bucket-name';
 
 var log = new s3log(keyid, secret, bucket, 'example_');
 log.setMax(20, 10); // 20 bytes or 10 seconds
