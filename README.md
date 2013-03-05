@@ -18,8 +18,8 @@ You can set the maximum number of bytes and the maximum time using the
 
 Then you can log data using `log.emit(string)`. If the memory buffer exceeds
 10 MB or after every hour, the data will be pushed into the specified S3
-bucket. The objects are named by concatenating the specified prefix and a
-timestamp.
+bucket. The objects are named by concatenating the specified prefix
+('example_' in the example above) and a timestamp.
 
 Caveats
 -------
