@@ -1,3 +1,9 @@
+# Project Archived!
+This project has not been maintained since late 2012. As such, ``node-s3log`` has been set to archive (read only) status. The project will remain listed with hopes the code is useful for future projects or communities.
+
+---
+
+
 node-s3log
 ==========
 
